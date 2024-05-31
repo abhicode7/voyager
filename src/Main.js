@@ -4,6 +4,7 @@ import { FaSearchengin } from "react-icons/fa6";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import images from "./images";
 import { motion, AnimatePresence, transform } from 'framer-motion';
+import { navSearch } from "./animationVariants";
 
 function Main({ showModal, setShowModal,  selectedImageRef }) {
 
@@ -135,35 +136,6 @@ function Main({ showModal, setShowModal,  selectedImageRef }) {
   };
 
 
- 
-
-  const navSearch = {
-    visible: { 
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 0.4 }, // You can adjust the duration here
-      x: '-50%',
-      y: '-50%'
-     
-     
-    },
-    hidden: { 
-      opacity: 0,
-      scale: 1.2,
-      transition: { duration: 0.4 },// You can adjust the duration here
-      x: '-50%',
-      y: '-50%'
-      
-    },
-    exit: { 
-      opacity: 0,
-      scale: 1,
-      transition: { duration: 0.4 }, // You can adjust the duration here
-      x: '-50%',
-      y: '-50%'
-    }
-  }
-
 
 
   return (
@@ -199,19 +171,22 @@ function Main({ showModal, setShowModal,  selectedImageRef }) {
       </Navbar>
       
 
-      <div className="relative w-[100%] h-[50svh]">
+      <div className="relative w-[100%] h-[50svh] object-cover overflow-hidden">
+
+        
         <img
           src="/bgnew.png"
           alt="hero"
-          className="w-full h-full object-cover"
+          className="h-full w-auto lg:w-full lg:h-auto object-cover"
         />
-        <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10">
+     
+        {/* <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10">
           <div className="w-[200px] h-[200px] bg-gradient-to-r from-[#CC5C6D] to-[#CC1175] border-4 border-[#FF7388]">
             <div className="w-[100px] h-[70px] bg-gradient-to-r from-[#CC5C6D] to-[#CCf195] mt-[30px] ml-[50px]"></div>
             <div className="w-[100px] h-[70px] bg-gradient-to-r from-[#CC5C6D] to-[#CCf195] mt-[10px] ml-[50px]"></div>
             
           </div>
-        <h1 className="text-white text-5xl font-bold"> Voyager 1</h1></div>
+        <h1 className="text-white text-5xl font-bold"> Voyager 1</h1></div> */}
       </div>
       <form className="absolute top-[1/2] left-0 -translate-y-1/2 w-[100%] z-10 flex flex-row justify-center"
       ref={searchBarRef}

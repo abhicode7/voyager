@@ -175,7 +175,7 @@ function Main({ showModal, setShowModal,  selectedImageRef }) {
 
         
         <img
-          src="/bgnew.png"
+          src="./bgnew.png"
           alt="hero"
           className="h-full w-auto lg:w-full lg:h-auto object-cover"
         />

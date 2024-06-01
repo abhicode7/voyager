@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/voyager/static/css/main.41d91abe.css",
+    "main.js": "/voyager/static/js/main.d168da76.js",
+    "static/js/453.3c3011ec.chunk.js": "/voyager/static/js/453.3c3011ec.chunk.js",
+    "index.html": "/voyager/index.html",
+    "main.41d91abe.css.map": "/voyager/static/css/main.41d91abe.css.map",
+    "main.d168da76.js.map": "/voyager/static/js/main.d168da76.js.map",
+    "453.3c3011ec.chunk.js.map": "/voyager/static/js/453.3c3011ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41d91abe.css",
+    "static/js/main.d168da76.js"
+  ]
+}

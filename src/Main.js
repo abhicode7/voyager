@@ -140,7 +140,7 @@ function Main({ showModal, setShowModal,  selectedImageRef }) {
 
   return (
     <div className={`w-full h-full`}>
-      <Navbar className='z-50'>
+      <Navbar className='z-50' isSearchInNavbar={isSearchInNavbar}>
         <AnimatePresence mode="wait">
       {isSearchInNavbar && (
                     <motion.div 
@@ -159,7 +159,7 @@ function Main({ showModal, setShowModal,  selectedImageRef }) {
                         />
                         <button
                             type="submit"
-                            className="bg-[#CC5C6D] absolute right-0 p-2 rounded-full h-[40px] w-[40px] items-center justify-center flex mr-[5px] text-white "
+                            className="bg-[#CC5C6D] absolute right-0 p-2 rounded-full h-[40px] w-[40px] items-center justify-center flex mr-[5px] text-white overflow-hidden "
                         >
                             <FaSearchengin className="w-[20px] h-[20px]" />
                         </button>

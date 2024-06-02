@@ -1,7 +1,7 @@
 const images = [
     {
       imageUrl: "https://cdn.midjourney.com/2b01f757-2dd7-4c82-afed-6addc305526d/0_3.png",
-      prompt: "You are an artist. You create beautiful paintings.",
+      prompt: "Illustration of an interview, freepik style",
       nprompt: "messy, unorganized",
       generator: "Midjourney"
     },

@@ -69,13 +69,17 @@ function Modal({ showModal, setShowModal, selectedImageRef }) {
             exit="exit"
 
             className="modal relative popup-content flex-col w-[90%] h-[70%] lg:w-[60%] lg:h-[80%] rounded-[10px] flex lg:flex-row items-center overflow-hidden">
-            <h2 className="text-white font-bold text-3xl absolute top-0 right-0 cursor-pointer" onClick={() => setShowModal(false)}>x</h2>
+            <h2 className="text-white font-bold text-3xl absolute top-2 right-4 cursor-pointer" onClick={() => setShowModal(false)}>x</h2>
                 <div className="flex flex-col items-center justify-center w-full h-[40%] lg:w-[60%] lg:h-full bg-gray-900 bg-opacity-[60%] p-4 object-cover">
-                    <img src={image.imageUrl} alt={image.imageUrl}  className="h-full lg:w-full lg:h-auto"></img>
+                    <img src={image.imageUrl} alt={image.imageUrl}  className="object-contain w-full h-full"></img>
                     </div>
-                <div className="flex flex-col items-center w-full lg:w-[40%] lg:h-full h-[60%] text-white bg-gray-900 gap-4 p-4">
-                <h1 className="text-white font-bold lg:text-3xl text-2xl mt-0 lg:mt-8">{image.generator}</h1>
+                <div className="flex flex-col items-center w-full lg:w-[40%] lg:h-full h-[60%] text-white bg-gray-900 gap-4 px-4 py-8 overflow-auto">
+                <h1 className="text-white font-bold text-xl mb-2 mt-0 lg:mt-8">Prompt</h1>
                 <p>{image.prompt}</p>
+                <h1 className="text-white font-bold text-xl mb-2 mt-0 lg:mt-8">Negative Prompt</h1>
+                <p>{image.nprompt}</p>
+                <h1 className="text-white font-bold text-xl mb-2 mt-0 lg:mt-8">Generator</h1>
+                <p>{image.generator}</p>
                 </div>
             </motion.div>
          

@@ -9,7 +9,7 @@ function Navbar({children, className, isSearchInNavbar}) {
             </div>
             {children}
             <div className=''>
-               <a href='https://discord.com/invite/midjourney' className={`${isSearchInNavbar ? 'hidden lg:block' : 'block'}`}><button className='text-black font-medium bg-white h-[50px] py-2 px-4 flex flex-row gap-1 rounded-full items-center justify-center'><img src='./midjourney.png' alt="logo" className='h-[40px] w-auto object-contain'></img>Midjourney</button></a>
+               <a href='https://discord.com/invite/midjourney' className={`${isSearchInNavbar ? 'hidden lg:block' : 'block'}`}><button className='text-black font-medium bg-white h-[50px] py-2 px-4 flex flex-row gap-1 rounded-full items-center justify-center hover:bg-black hover:text-white transition-colors duration-500 active:bg-[#000022]'><img src='./midjourney.png' alt="logo" className='h-[40px] w-auto object-contain rounded-full '></img>Midjourney</button></a>
             </div>
         </div>
     );

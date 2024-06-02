@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import { FaSearchengin } from "react-icons/fa6";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import images from "./images";
-import { motion, AnimatePresence, transform } from 'framer-motion';
+import { motion, AnimatePresence, transform, useScroll, useTransform } from 'framer-motion';
 import { navSearch } from "./animationVariants";
 
 function Main({ showModal, setShowModal,  selectedImageRef }) {
@@ -16,6 +16,8 @@ function Main({ showModal, setShowModal,  selectedImageRef }) {
     const searchBarRef = useRef(null); // Reference to the search bar
     const [isSearchInNavbar, setIsSearchInNavbar] = useState(false); // State to track search bar position
     const [goObserver, setGoObserver] = useState(true);
+    const { scrollY } = useScroll(); // Track the scroll position
+    const y = useTransform(scrollY, [0, 400], [0, 150], { type: 'tween' }); // Adjust y based on scroll
    
 
     useEffect(() => {
@@ -171,22 +173,17 @@ function Main({ showModal, setShowModal,  selectedImageRef }) {
       </Navbar>
       
 
-      <div className="relative w-[100%] h-[50svh] object-cover overflow-hidden">
+      <div className="w-[100%] h-[50svh] overflow-hidden">
 
         
-        <img
+        <motion.img
           src="./bgnew.png"
           alt="hero"
           className="h-full w-auto lg:w-full lg:h-auto object-cover"
+          style={{y}} 
+          transition={{ type: 'tween', stiffness: 50, damping: 10 }}
         />
-     
-        {/* <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10">
-          <div className="w-[200px] h-[200px] bg-gradient-to-r from-[#CC5C6D] to-[#CC1175] border-4 border-[#FF7388]">
-            <div className="w-[100px] h-[70px] bg-gradient-to-r from-[#CC5C6D] to-[#CCf195] mt-[30px] ml-[50px]"></div>
-            <div className="w-[100px] h-[70px] bg-gradient-to-r from-[#CC5C6D] to-[#CCf195] mt-[10px] ml-[50px]"></div>
-            
-          </div>
-        <h1 className="text-white text-5xl font-bold"> Voyager 1</h1></div> */}
+
       </div>
       <form className="absolute top-[1/2] left-0 -translate-y-1/2 w-[100%] z-10 flex flex-row justify-center"
       ref={searchBarRef}

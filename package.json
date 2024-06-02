@@ -2,6 +2,7 @@
   "name": "voyager",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^11.2.6",

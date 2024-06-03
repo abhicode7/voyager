@@ -1,7 +1,3 @@
-Sure! Here is your updated README with the relevant details for the **Voyager** project:
-
----
-
 # 🖼️ Voyager - AI Image Gallery Platform
 
 Welcome to **Voyager**! This project is an AI-powered image gallery platform built with React, featuring a sleek design, responsive layout, and smooth animations. Dive in to explore stunning AI-generated images with a seamless search functionality and an intuitive interface. 🎨✨

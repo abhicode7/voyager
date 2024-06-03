@@ -80,10 +80,12 @@ voyager
 
 ## 🖼️ Gallery Screenshots
 
-![Search Feature](https://via.placeholder.com/800x400)
+![Search Feature](https://github.com/abhicode7/voyager/assets/87370756/384ff2c8-0213-4057-842e-b2ad63fd6257)
+
 *Search for your favorite images effortlessly.*
 
-![Modal Preview](https://via.placeholder.com/800x400)
+![Modal Preview](https://github.com/abhicode7/voyager/assets/87370756/6abc719c-91b9-4060-930b-a1683d27f4df)
+
 *Click on any image to view it in a stunning modal.*
 
 ## 📋 Future Improvements
@@ -103,6 +105,6 @@ Hey there! I'm **Abhiroop**, the developer of this project. I'm passionate about
 
 Enjoy exploring Voyager! If you like it, please give it a ⭐ on GitHub.
 
-![Thank You](https://via.placeholder.com/800x400)
+![Thank You](https://cdn.dribbble.com/users/1889486/screenshots/5081642/thankyou_.gif)
 
 ---

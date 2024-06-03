@@ -105,6 +105,7 @@ Hey there! I'm **Abhiroop**, the developer of this project. I'm passionate about
 
 Enjoy exploring Voyager! If you like it, please give it a ⭐ on GitHub.
 
-![Thank You](https://cdn.dribbble.com/users/1889486/screenshots/5081642/thankyou_.gif)
+![Thank You]
+<img src="https://cdn.dribbble.com/users/1889486/screenshots/5081642/thankyou_.gif" height="400">
 
 ---

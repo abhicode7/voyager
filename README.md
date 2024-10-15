@@ -2,7 +2,7 @@
 
 Welcome to **Voyager**! This project is an AI-powered image gallery platform built with React, featuring a sleek design, responsive layout, and smooth animations. Dive in to explore stunning AI-generated images with a seamless search functionality and an intuitive interface. 🎨✨
 
-![Gallery Preview](https://github.com/abhicode7/voyager/assets/87370756/495f49e5-7ce9-4103-9309-a653e95bc593) 
+![Gallery Preview](https://github.com/user-attachments/assets/7d78027c-57e0-4098-8b09-969eec8c7676) 
 
 > **Hosted Version:** [View the website here!](https://abhicode7.github.io/voyager/) 🚀
 
@@ -94,7 +94,7 @@ voyager
 
 ## 🖼️ Gallery Screenshots
 
-![Search Feature](https://github.com/abhicode7/voyager/assets/87370756/384ff2c8-0213-4057-842e-b2ad63fd6257)
+![Search Feature](https://github.com/user-attachments/assets/b3c05276-7c5a-4718-aa68-3c928aa827d5)
 
 *Search for your favorite images effortlessly.*
 
@@ -118,8 +118,6 @@ Hey there! I'm **Abhiroop**, the developer of this project. I'm passionate about
 ---
 
 Enjoy exploring Voyager! If you like it, please give it a ⭐ on GitHub.
-
-![Thank You]
 
 <img src="https://cdn.dribbble.com/users/1889486/screenshots/5081642/thankyou_.gif" height="400">
 

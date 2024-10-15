@@ -94,7 +94,7 @@ voyager
 
 ## 🖼️ Gallery Screenshots
 
-![Search Feature](https://github.com/abhicode7/voyager/assets/87370756/384ff2c8-0213-4057-842e-b2ad63fd6257)
+![Search Feature](https://github.com/user-attachments/assets/b3c05276-7c5a-4718-aa68-3c928aa827d5)
 
 *Search for your favorite images effortlessly.*
 

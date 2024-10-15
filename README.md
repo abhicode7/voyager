@@ -2,7 +2,7 @@
 
 Welcome to **Voyager**! This project is an AI-powered image gallery platform built with React, featuring a sleek design, responsive layout, and smooth animations. Dive in to explore stunning AI-generated images with a seamless search functionality and an intuitive interface. 🎨✨
 
-![Gallery Preview](https://github.com/abhicode7/voyager/assets/87370756/495f49e5-7ce9-4103-9309-a653e95bc593) 
+![Gallery Preview](https://github.com/user-attachments/assets/7d78027c-57e0-4098-8b09-969eec8c7676) 
 
 > **Hosted Version:** [View the website here!](https://abhicode7.github.io/voyager/) 🚀
 

@@ -152,19 +152,20 @@ function Main({ showModal, setShowModal,  selectedImageRef }) {
                     exit="exit"
                     
                     className="navSearch absolute top-[50%] left-[50%] w-[90%] xl:w-full max-w-[500px] xl:max-w-[500px] flex flex-row justify-center items-center xl:mx-0">
-                        <input
-                            type="text"
-                            placeholder="Search..."
-                            onChange={(e) => setSearchText(e.target.value)}
-                            value={searchText}
-                            className="w-full max-w-[600px] px-6 py-2 h-[50px] rounded-full bg-[#1C1C1C] focus:outline-none text-white placeholder:text-[#565656]"
-                        />
-                        <button
-                            type="submit"
-                            className="bg-[#CC5C6D] absolute right-0 p-2 rounded-full h-[40px] w-[40px] items-center justify-center flex mr-[5px] text-white overflow-hidden "
-                        >
-                            <FaSearchengin className="w-[20px] h-[20px]" />
-                        </button>
+                       <input
+            type="text"
+            placeholder="Search..."
+            onChange={(e) => setSearchText(e.target.value)}
+            value={searchText}
+            className="w-[100%] max-w-[600px] pl-[60px] py-2 h-[50px] rounded-full bg-[#1C1C1C] focus:outline-none text-white placeholder:text-[#565656]"
+          />
+          <button
+            type="submit"
+            className="bg-[#CC5C6D] absolute left-0 p-2 rounded-full h-[40px] w-[40px] items-center justify-center flex ml-[5px] text-white pointer-events-none"
+          >
+            <FaSearchengin className="w-[30px] h-[30px]" />
+          </button>
+                       
                     </motion.div>
                 )}
 
@@ -194,11 +195,11 @@ function Main({ showModal, setShowModal,  selectedImageRef }) {
             placeholder="Search..."
             onChange={(e) => setSearchText(e.target.value)}
             value={searchText}
-            className="w-[100%] max-w-[600px] px-6 py-2 h-[70px] rounded-full bg-[#1C1C1C] focus:outline-none text-white placeholder:text-[#565656]"
+            className="w-[100%] max-w-[600px] pl-[80px] py-2 h-[70px] rounded-full bg-[#1C1C1C] focus:outline-none text-white placeholder:text-[#565656]"
           />
           <button
             type="submit"
-            className="bg-[#CC5C6D] absolute right-0 p-2 rounded-full h-[60px] w-[60px] items-center justify-center flex mr-[5px] text-white "
+            className="bg-[#CC5C6D] absolute left-0 p-2 rounded-full h-[60px] w-[60px] items-center justify-center flex ml-[5px] text-white pointer-events-none "
           >
             <FaSearchengin className="w-[30px] h-[30px]" />
           </button>

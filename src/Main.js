@@ -137,6 +137,15 @@ function Main({ showModal, setShowModal,  selectedImageRef }) {
     
   };
 
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault(); // Prevent any default action
+      // Handle the search here
+      console.log("Searching for:", searchText);
+      // Add your search logic here, such as updating state or making an API call
+    }
+  };
+
 
 
 
@@ -157,6 +166,7 @@ function Main({ showModal, setShowModal,  selectedImageRef }) {
             placeholder="Search..."
             onChange={(e) => setSearchText(e.target.value)}
             value={searchText}
+            onKeyDown={handleKeyDown}
             className="w-[100%] max-w-[600px] pl-[60px] py-2 h-[50px] rounded-full bg-[#1C1C1C] focus:outline-none text-white placeholder:text-[#565656]"
           />
           <button
@@ -195,6 +205,7 @@ function Main({ showModal, setShowModal,  selectedImageRef }) {
             placeholder="Search..."
             onChange={(e) => setSearchText(e.target.value)}
             value={searchText}
+            onKeyDown={handleKeyDown}
             className="w-[100%] max-w-[600px] pl-[80px] py-2 h-[70px] rounded-full bg-[#1C1C1C] focus:outline-none text-white placeholder:text-[#565656]"
           />
           <button
@@ -227,7 +238,7 @@ function Main({ showModal, setShowModal,  selectedImageRef }) {
 
       <div ref={containerRef} className="h-[1px]" /> {/* Sentinel element to trigger loading more images */}
 
-          <h2 className="text-white"
+          <h2 className="text-white p-10 text-center"
               
           >{loading ? "Loading..." : "No More Images"}</h2>
       </div>
